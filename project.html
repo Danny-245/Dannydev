@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates</title>
+    <link rel="stylesheet" href="CSS/project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <div id="abs-form" class="contact-form">
+        <div id="closeBtn" class="closebtn">
+            Close
+        </div>
+        <form id="form"  action="thanks.html">
+            <div class="input-field">
+                <div class="logo2">
+                   
+                    <img src="img/school.png" width="50px" alt="">
+                    <h4 class="hd-contactform">Contact me</h4>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Username" id="username" required><br>
+                    <input type="email" placeholder="Enter a valid Email" id="email" required><br>
+                    <textarea name="message" id="msgbox" cols="30" rows="5" placeholder="Type your message" oninput="validate()" required></textarea>
+                    <p id="error"></p><br>
+                    <input type="submit" name="submit" id="submit-btn" onclick="submit()">
+                    <p class="comm">We respect your privacy</p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="main">
+    <div class="container">
+        <div class="navbar-parent" id="navbartop">
+<div class="navbar">
+    <div style="display: flex;align-items: center;gap: 7px;" class="logo"><img src="img/school.png" width="50px" alt=""> <p class="logo-name">Danny<span>dev</span></p></div>
+    <div class="menubar">
+        <i id="menubar" class="fa-solid fa-bars"></i>
+    </div>
+</div>
+</div>
+<nav class="navlinks">
+    <div style="display: flex;align-items: center;gap: 7px; padding: 0 10px;" class="logo"><img src="img/school.png" width="50px" alt=""> <p class="logo-name">Danny<span>dev</span></p></div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="#pro">Project</a></li>
+        <li><a href="#wwd">What we do</a></li>
+        <li><a href="#skill">Skill</a></li>
+
+        <p class="menu-copy">
+            <i class="fa-solid fa-key"></i>  Powered by <span class="dan">Danny</span> 
+        </p>
+    </ul>
+</nav>
+
+
+    </div>
+</div>
+
+<div class="bodytxt">
+   
+
+<div id="wwd" class="what-we-do hidden">
+    <p class="topic">What we do</p>
+    <i id="top-abs" class="uil uil-rocket"></i>
+
+    <div class="flex">
+        <div class="first">
+            
+            <h3 class="inspire">
+                Bringing your <span class="imagination">imagination</span> to Reality,<br> Connect with <i class="uil uil-rocket"></i> <br>
+                Dannydev,I'm a <span class="auto-type"></span>
+             </h3>
+         
+             <a href="https://wa.me/2348168825251?text=Hey%20Danny%2C%20"><button class="reach one">Get in touch</button></a> &nbsp;
+             <button id="contactmeBtn" class="reach two">Contact me</button>
+        </div>
+        
+        <div class="second">
+            <img class="img3" src="img/3d.png" alt="">
+            <!-- <img id="dd" src="/img/vecteezy_smart-phone-with-megaphone-illustration-for-business-idea_8480507_332.png" width="500px" alt=""> -->
+        </div>
+    </div>
+</div>
+
+<div id="pro" class="project">
+    <p class="pro hidden">
+        Project
+</p>
+<div class="template">
+<div class="tem1 hidden">
+    <p>
+        <span class="hd-p">Web development ~</span> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus deleniti, distinctio aliquid, iusto exercitationem recusandae non mollitia ipsum saepe maiores! Ut, consequatur.
+    </p>
+</div>
+<div class="prodone"><i class="uil uil-check-square"></i>&nbsp;<p>Project one </p></div>
+<div class="tem2 hidden">
+    <p>
+        <span class="hd-p">Web development ~</span> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus deleniti, distinctio aliquid, iusto exercitationem recusandae non mollitia ipsum saepe maiores! Ut, consequatur.
+    </p>
+</div>
+<div class="prodone"><i class="uil uil-check-square"></i>&nbsp;<p>Project two </p></div>
+
+<div class="tem3 hidden">
+    <p>
+        <span class="hd-p">Web development ~</span> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus deleniti, distinctio aliquid, iusto exercitationem recusandae non mollitia ipsum saepe maiores! Ut, consequatur.
+    </p>
+</div>
+<div class="prodone"><i class="uil uil-check-square"></i>&nbsp;<p>Project three </p></div>
+
+<div class="tem4 hidden">
+    <p>
+        <span class="hd-p">Web development ~</span> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus deleniti, distinctio aliquid, iusto exercitationem recusandae non mollitia ipsum saepe maiores! Ut, consequatur.
+    </p>
+</div>
+<div class="prodone"><i class="uil uil-check-square"></i>&nbsp;<p>Project four </p></div>
+
+</div>
+
+</div>
+
+
+
+
+<div id="skill" class="skills hidden">
+    <i id="react-abs" class="fa-brands fa-react"></i>
+
+    <p class="skill-txt">Skills</p>
+    <div class="skill-code">
+    <div class="html">
+<div class="img">
+    <i class="fa-brands fa-html5"></i>
+</div>
+<div class="text">
+<h4>HTML</h4>
+<p>80%</p>
+</div>
+    </div>
+    <div class="css">
+<div class="img">
+    <i class="fa-brands fa-css3-alt"></i>
+</div>
+<div class="text">
+    <H4>CSS</H4>
+    <p>60%</p>
+</div>
+    </div>
+    <div class="js">
+        <div class="img">
+            <i class="fa-brands fa-square-js"></i>
+        </div>
+        <div class="text">
+            <h4>JS</h4>
+            <p>40%</p>
+        </div>
+    </div>
+    <div class="react">
+        <div class="img">
+            <i class="fa-brands fa-react"></i>
+        </div>
+        <div class="text">
+            <h4>REACT</h4>
+            <p>35%</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="footer hidden">
+    <div class="logo2">
+        <div style="display: flex;align-items: center;gap: 7px; padding: 0 10px;" class="logo"><img src="img/school.png" width="50px" alt=""> <p class="logo-name">Danny<span>dev</span></p></div>
+
+    </div>
+    <div class="social-links">
+        <div class="links">
+           <a href="https://instagram.com/chikeziedaniel345?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <i class="fa-brands fa-instagram"></i></a>
+         <a href=""><i class="fa-brands fa-twitter"></i></a>   
+          <a href="https://www.facebook.com/profile.php?id=100085677906803&mibextid=nW3QTL"><i class="fa-brands fa-facebook-f"></i></a>  
+           <a href="https://wa.me/2348168825251?text=Hey%20Danny%2C%20"><i class="fa-brands fa-whatsapp"></i></a> 
+        </div>
+    </div>
+
+    <div class="easy-navlinks">
+        <div class="easy-links">
+<a href="index.html">Home</a>
+<a href="#">Project</a>
+<a href="#wwd">What we do</a>
+<a href="index.html">About me</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+<p>Dannydev &copy; 2023</p>
+    </div>
+</div>
+</div>
+    <script src="JS/project.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.auto-type', {
+            strings: [
+                'Web developer',
+                'Graphic designer',
+                'Student',
+                'Future Coder'
+            ],
+            typeSpeed: 150,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
